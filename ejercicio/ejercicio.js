@@ -168,15 +168,3 @@ class Partida {
             setTimeout(pedirCartas(), 5000)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
