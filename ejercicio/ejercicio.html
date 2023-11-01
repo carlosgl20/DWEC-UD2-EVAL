@@ -6,10 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="ejercicio.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+
+        td {
+            border: 1px solid black;
+            width: 60px;
+            height: 80px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 18px;
+        }
+    </style>
 </head>
 
 <body>
-    
+    <label for="tamanio">Tamaño de la tabla:</label>
+    <input type="number" id="tamanio" value="4">
+    <button onclick="repartirCartas()">Repartir Cartas</button> //terminar luego funcion
+    <br><br>
+    <table id="tabla"></table>
+
 </body>
 
 </html>
